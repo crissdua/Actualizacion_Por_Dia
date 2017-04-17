@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Actualizacion_Por_Dia
+</name>
+</assembly>
+<members>
+<member name="T:Actualizacion_Por_Dia.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Actualizacion_Por_Dia.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Actualizacion_Por_Dia.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAType">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAType.DateA">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseType">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseType.SaldoClientesAResult">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseTypeRow">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseTypeRow.CardCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseTypeRow.CardName">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseTypeRow.Balance">
+<comentarios/>
+</member>
+</members>
+</doc>
