@@ -1,91 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:n2="http://sap.com/xi/AP/Common/Global" xmlns:tns="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:n3="http://sap.com/xi/BASIS/Global" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:rfc="urn:sap-com:sap:rfc:functions" xmlns:n4="http://sap.com/xi/AP/Common/GDT" xmlns:n6="http://sap.com/xi/Common/DataTypes" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:n5="http://sap.com/xi/AP/PDI/ABSL" xmlns:n1="http://sap.com/xi/SAPGlobal20/Global" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:n2="http://sap.com/xi/AP/Common/Global" xmlns:tns="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:n3="http://sap.com/xi/BASIS/Global" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:rfc="urn:sap-com:sap:rfc:functions" xmlns:n4="http://sap.com/xi/AP/Common/GDT" xmlns:n6="http://sap.com/xi/Common/DataTypes" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:n5="http://sap.com/xi/AP/PDI/ABSL" xmlns:n1="http://sap.com/xi/SAPGlobal20/Global" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:documentation>
     <sidl:sidl xmlns:sidl="http://www.sap.com/2007/03/sidl" />
   </wsdl:documentation>
   <wsp:UsingPolicy wsdl:required="true" />
-  <wsp:Policy wsu:Id="BN_BN_binding_SOAP12">
-    <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
-    <saptrnbnd:OptimizedMimeSerialization xmlns:saptrnbnd="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" wsp:Optional="true" />
-    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
-      <wsp:All>
-        <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
-          <wsp:Policy>
-            <sp:TransportToken>
-              <wsp:Policy>
-                <sp:HttpsToken>
-                  <wsp:Policy>
-                    <sp:HttpBasicAuthentication />
-                  </wsp:Policy>
-                </sp:HttpsToken>
-              </wsp:Policy>
-            </sp:TransportToken>
-            <sp:AlgorithmSuite>
-              <wsp:Policy>
-                <sp:Basic128Rsa15 />
-              </wsp:Policy>
-            </sp:AlgorithmSuite>
-            <sp:Layout>
-              <wsp:Policy>
-                <sp:Strict />
-              </wsp:Policy>
-            </sp:Layout>
-          </wsp:Policy>
-        </sp:TransportBinding>
-      </wsp:All>
-      <wsp:All>
-        <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
-          <wsp:Policy>
-            <sp:TransportToken>
-              <wsp:Policy>
-                <sp:HttpsToken>
-                  <wsp:Policy>
-                    <sp:RequireClientCertificate />
-                  </wsp:Policy>
-                </sp:HttpsToken>
-              </wsp:Policy>
-            </sp:TransportToken>
-            <sp:AlgorithmSuite>
-              <wsp:Policy>
-                <sp:Basic128Rsa15 />
-              </wsp:Policy>
-            </sp:AlgorithmSuite>
-            <sp:Layout>
-              <wsp:Policy>
-                <sp:Strict />
-              </wsp:Policy>
-            </sp:Layout>
-          </wsp:Policy>
-        </sp:TransportBinding>
-      </wsp:All>
-      <wsp:All>
-        <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
-          <wsp:Policy>
-            <sp:TransportToken>
-              <wsp:Policy>
-                <sp:HttpsToken>
-                  <wsp:Policy>
-                    <sapsp:HTTPSSO2 />
-                  </wsp:Policy>
-                </sp:HttpsToken>
-              </wsp:Policy>
-            </sp:TransportToken>
-            <sp:AlgorithmSuite>
-              <wsp:Policy>
-                <sp:Basic128Rsa15 />
-              </wsp:Policy>
-            </sp:AlgorithmSuite>
-            <sp:Layout>
-              <wsp:Policy>
-                <sp:Strict />
-              </wsp:Policy>
-            </sp:Layout>
-          </wsp:Policy>
-        </sp:TransportBinding>
-      </wsp:All>
-    </wsp:ExactlyOne>
-    <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
-  </wsp:Policy>
   <wsp:Policy wsu:Id="BN_BN_binding">
     <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
     <saptrnbnd:OptimizedMimeSerialization xmlns:saptrnbnd="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" wsp:Optional="true" />
@@ -168,7 +86,89 @@
     </wsp:ExactlyOne>
     <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
   </wsp:Policy>
-  <wsp:Policy wsu:Id="IF_IF_Y0I9I95ZY_Vistas">
+  <wsp:Policy wsu:Id="BN_BN_binding_SOAP12">
+    <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+    <saptrnbnd:OptimizedMimeSerialization xmlns:saptrnbnd="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" wsp:Optional="true" />
+    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken>
+                  <wsp:Policy>
+                    <sp:HttpBasicAuthentication />
+                  </wsp:Policy>
+                </sp:HttpsToken>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic128Rsa15 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken>
+                  <wsp:Policy>
+                    <sp:RequireClientCertificate />
+                  </wsp:Policy>
+                </sp:HttpsToken>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic128Rsa15 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken>
+                  <wsp:Policy>
+                    <sapsp:HTTPSSO2 />
+                  </wsp:Policy>
+                </sp:HttpsToken>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic128Rsa15 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+    <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="IF_IF_Y0ZJU4DVY_ClientesV">
     <sapsession:Session xmlns:sapsession="http://www.sap.com/webas/630/soap/features/session/">
       <sapsession:enableSession>false</sapsession:enableSession>
     </sapsession:Session>
@@ -176,12 +176,11 @@
       <sapcentraladmin:BusinessApplicationID>00163E0FEAB71ED69D8871F95CC16F7B</sapcentraladmin:BusinessApplicationID>
     </sapcentraladmin:CentralAdministration>
   </wsp:Policy>
-  <wsp:Policy wsu:Id="OP_IF_OP_Create">
+  <wsp:Policy wsu:Id="OP_IF_OP_Read">
     <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
     <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
     <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
     <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
-    <sapidp:Idempotency n0:Optional="true" xmlns:sapidp="http://www.sap.com/710/soap/features/idempotency/" xmlns:n0="http://schemas.xmlsoap.org/ws/2004/09/policy" />
   </wsp:Policy>
   <wsp:Policy wsu:Id="OP_IF_OP_Update">
     <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
@@ -190,15 +189,16 @@
     <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
     <sapidp:Idempotency n0:Optional="true" xmlns:sapidp="http://www.sap.com/710/soap/features/idempotency/" xmlns:n0="http://schemas.xmlsoap.org/ws/2004/09/policy" />
   </wsp:Policy>
-  <wsp:Policy wsu:Id="OP_IF_OP_Read">
+  <wsp:Policy wsu:Id="OP_IF_OP_Create">
     <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
     <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
     <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
     <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+    <sapidp:Idempotency n0:Optional="true" xmlns:sapidp="http://www.sap.com/710/soap/features/idempotency/" xmlns:n0="http://schemas.xmlsoap.org/ws/2004/09/policy" />
   </wsp:Policy>
   <wsdl:types>
-    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/SAPGlobal20/Global" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/SAPGlobal20/Global">
-      <xsd:import namespace="http://0014438665-one-off.sap.com/Y0I9I95ZY_" />
+    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/SAPGlobal20/Global" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/SAPGlobal20/Global">
+      <xsd:import namespace="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" />
       <xsd:element name="ClientesVClientesVCreateConfirmation_sync" type="xi2:ClientesVClientesVCreateConfirmationMessage_sync" />
       <xsd:element name="ClientesVClientesVCreateRequest_sync" type="xi2:ClientesVClientesVCreateRequestMessage_sync" />
       <xsd:element name="ClientesVClientesVReadByIDQuery_sync" type="xi2:ClientesVClientesVReadByIDQueryMessage_sync" />
@@ -206,7 +206,7 @@
       <xsd:element name="ClientesVClientesVUpdateConfirmation_sync" type="xi2:ClientesVClientesVUpdateConfirmationMessage_sync" />
       <xsd:element name="ClientesVClientesVUpdateRequest_sync" type="xi2:ClientesVClientesVUpdateRequestMessage_sync" />
     </xsd:schema>
-    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/AP/Common/Global" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/AP/Common/Global">
+    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/AP/Common/Global" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/AP/Common/Global">
       <xsd:import namespace="http://sap.com/xi/AP/Common/GDT" />
       <xsd:complexType name="ExchangeFaultData">
         <xsd:sequence>
@@ -237,7 +237,7 @@
         </xsd:complexType>
       </xsd:element>
     </xsd:schema>
-    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://0014438665-one-off.sap.com/Y0I9I95ZY_">
+    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://0014438665-one-off.sap.com/Y0ZJU4DVY_">
       <xsd:import namespace="http://sap.com/xi/AP/Common/GDT" />
       <xsd:import namespace="http://sap.com/xi/AP/PDI/ABSL" />
       <xsd:import namespace="http://sap.com/xi/Common/DataTypes" />
@@ -311,7 +311,7 @@
         </xsd:sequence>
       </xsd:complexType>
     </xsd:schema>
-    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/BASIS/Global" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/BASIS/Global">
+    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/BASIS/Global" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/BASIS/Global">
       <xsd:simpleType name="AgencyIdentificationCode">
         <xsd:annotation>
           <xsd:documentation xml:lang="EN">
@@ -357,7 +357,7 @@
         </xsd:restriction>
       </xsd:simpleType>
     </xsd:schema>
-    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/AP/Common/GDT" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/AP/Common/GDT">
+    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/AP/Common/GDT" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/AP/Common/GDT">
       <xsd:import namespace="http://sap.com/xi/BASIS/Global" />
       <xsd:complexType name="BusinessDocumentBasicMessageHeader">
         <xsd:sequence>
@@ -663,7 +663,7 @@
         <xsd:restriction base="xsd:anyURI" />
       </xsd:simpleType>
     </xsd:schema>
-    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/AP/PDI/ABSL" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/AP/PDI/ABSL">
+    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/AP/PDI/ABSL" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/AP/PDI/ABSL">
       <xsd:simpleType name="ID">
         <xsd:annotation>
           <xsd:documentation xml:lang="EN">
@@ -676,7 +676,7 @@
         </xsd:restriction>
       </xsd:simpleType>
     </xsd:schema>
-    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0I9I95ZY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/Common/DataTypes" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/Common/DataTypes">
+    <xsd:schema xmlns:xi3="http://sap.com/xi/BASIS/Global" xmlns:xi2="http://0014438665-one-off.sap.com/Y0ZJU4DVY_" xmlns:xi7="http://sap.com/xi/Common/DataTypes" xmlns:xi5="http://sap.com/xi/AP/PDI/ABSL" xmlns:xi0="http://sap.com/xi/SAPGlobal20/Global" xmlns:xi4="http://sap.com/xi/AP/Common/GDT" xmlns:xi1="http://sap.com/xi/AP/Common/Global" xmlns="http://sap.com/xi/Common/DataTypes" xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:3.0" targetNamespace="http://sap.com/xi/Common/DataTypes">
       <xsd:simpleType name="UUID">
         <xsd:annotation>
           <xsd:documentation xml:lang="EN">
@@ -711,9 +711,9 @@
   <wsdl:message name="ClientesVClientesVReadByIDResponse_sync">
     <wsdl:part name="ClientesVClientesVReadByIDResponse_sync" element="n1:ClientesVClientesVReadByIDResponse_sync" />
   </wsdl:message>
-  <wsdl:portType name="Y0I9I95ZY_Vistas">
+  <wsdl:portType name="Y0ZJU4DVY_ClientesV">
     <wsp:Policy>
-      <wsp:PolicyReference URI="#IF_IF_Y0I9I95ZY_Vistas" />
+      <wsp:PolicyReference URI="#IF_IF_Y0ZJU4DVY_ClientesV" />
     </wsp:Policy>
     <wsdl:operation name="Create">
       <wsp:Policy>
@@ -740,55 +740,13 @@
       <wsdl:fault name="StandardFaultMessage" message="tns:StandardFaultMessage" />
     </wsdl:operation>
   </wsdl:portType>
-  <wsdl:binding name="binding_SOAP12" type="tns:Y0I9I95ZY_Vistas">
-    <wsp:Policy>
-      <wsp:PolicyReference URI="#BN_BN_binding_SOAP12" />
-    </wsp:Policy>
-    <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="Create">
-      <wsoap12:operation soapAction="http://0014438665-one-off.sap.com/Y0I9I95ZY_/Y0I9I95ZY_Vistas/CreateRequest" style="document" />
-      <wsdl:input>
-        <wsoap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <wsoap12:body use="literal" />
-      </wsdl:output>
-      <wsdl:fault name="StandardFaultMessage">
-        <wsoap12:fault use="literal" name="StandardFaultMessage" namespace="" />
-      </wsdl:fault>
-    </wsdl:operation>
-    <wsdl:operation name="Update">
-      <wsoap12:operation soapAction="http://0014438665-one-off.sap.com/Y0I9I95ZY_/Y0I9I95ZY_Vistas/UpdateRequest" style="document" />
-      <wsdl:input>
-        <wsoap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <wsoap12:body use="literal" />
-      </wsdl:output>
-      <wsdl:fault name="StandardFaultMessage">
-        <wsoap12:fault use="literal" name="StandardFaultMessage" namespace="" />
-      </wsdl:fault>
-    </wsdl:operation>
-    <wsdl:operation name="Read">
-      <wsoap12:operation soapAction="http://0014438665-one-off.sap.com/Y0I9I95ZY_/Y0I9I95ZY_Vistas/ReadRequest" style="document" />
-      <wsdl:input>
-        <wsoap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <wsoap12:body use="literal" />
-      </wsdl:output>
-      <wsdl:fault name="StandardFaultMessage">
-        <wsoap12:fault use="literal" name="StandardFaultMessage" namespace="" />
-      </wsdl:fault>
-    </wsdl:operation>
-  </wsdl:binding>
-  <wsdl:binding name="binding" type="tns:Y0I9I95ZY_Vistas">
+  <wsdl:binding name="binding" type="tns:Y0ZJU4DVY_ClientesV">
     <wsp:Policy>
       <wsp:PolicyReference URI="#BN_BN_binding" />
     </wsp:Policy>
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="Create">
-      <soap:operation soapAction="http://0014438665-one-off.sap.com/Y0I9I95ZY_/Y0I9I95ZY_Vistas/CreateRequest" style="document" />
+      <soap:operation soapAction="http://0014438665-one-off.sap.com/Y0ZJU4DVY_/Y0ZJU4DVY_ClientesV/CreateRequest" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -800,7 +758,7 @@
       </wsdl:fault>
     </wsdl:operation>
     <wsdl:operation name="Update">
-      <soap:operation soapAction="http://0014438665-one-off.sap.com/Y0I9I95ZY_/Y0I9I95ZY_Vistas/UpdateRequest" style="document" />
+      <soap:operation soapAction="http://0014438665-one-off.sap.com/Y0ZJU4DVY_/Y0ZJU4DVY_ClientesV/UpdateRequest" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -812,7 +770,7 @@
       </wsdl:fault>
     </wsdl:operation>
     <wsdl:operation name="Read">
-      <soap:operation soapAction="http://0014438665-one-off.sap.com/Y0I9I95ZY_/Y0I9I95ZY_Vistas/ReadRequest" style="document" />
+      <soap:operation soapAction="http://0014438665-one-off.sap.com/Y0ZJU4DVY_/Y0ZJU4DVY_ClientesV/ReadRequest" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -824,12 +782,54 @@
       </wsdl:fault>
     </wsdl:operation>
   </wsdl:binding>
+  <wsdl:binding name="binding_SOAP12" type="tns:Y0ZJU4DVY_ClientesV">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN_BN_binding_SOAP12" />
+    </wsp:Policy>
+    <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Create">
+      <wsoap12:operation soapAction="http://0014438665-one-off.sap.com/Y0ZJU4DVY_/Y0ZJU4DVY_ClientesV/CreateRequest" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StandardFaultMessage">
+        <wsoap12:fault use="literal" name="StandardFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsoap12:operation soapAction="http://0014438665-one-off.sap.com/Y0ZJU4DVY_/Y0ZJU4DVY_ClientesV/UpdateRequest" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StandardFaultMessage">
+        <wsoap12:fault use="literal" name="StandardFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Read">
+      <wsoap12:operation soapAction="http://0014438665-one-off.sap.com/Y0ZJU4DVY_/Y0ZJU4DVY_ClientesV/ReadRequest" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StandardFaultMessage">
+        <wsoap12:fault use="literal" name="StandardFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
   <wsdl:service name="service">
-    <wsdl:port name="binding_SOAP12" binding="tns:binding_SOAP12">
-      <wsoap12:address location="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0i9i95zy_vistas?sap-vhost=my324667.crm.ondemand.com" />
-    </wsdl:port>
     <wsdl:port name="binding" binding="tns:binding">
-      <soap:address location="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0i9i95zy_vistas?sap-vhost=my324667.crm.ondemand.com" />
+      <soap:address location="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0zju4dvy_clientesv?sap-vhost=my324667.crm.ondemand.com" />
+    </wsdl:port>
+    <wsdl:port name="binding_SOAP12" binding="tns:binding_SOAP12">
+      <wsoap12:address location="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0zju4dvy_clientesv?sap-vhost=my324667.crm.ondemand.com" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

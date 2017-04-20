@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="uaKweezAZIrskieuKTBpZWicmiQ=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="UKinEO6gKWoHtLaVVtMOA99cWL8=">
   <bindingConfigurations>
-    <bindingConfiguration bindingType="customBinding" name="binding_SOAP121">
+    <bindingConfiguration bindingType="customBinding" name="binding_SOAP12">
       <properties>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>binding_SOAP121</serializedValue>
+          <serializedValue>binding_SOAP12</serializedValue>
         </property>
         <property path="/closeTimeout" isComplexType="false" isExplicitlyDefined="true" clrType="System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -323,10 +323,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="binding_SOAP121" contract="C4C_SaldoClientesB.Y0I9I95ZY_ClientesB" bindingType="customBinding" address="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0i9i95zy_clientesb?sap-vhost=my324667.crm.ondemand.com" bindingConfiguration="binding_SOAP121">
+    <endpoint name="binding_SOAP12" contract="C4C_SaldoClientesB.Y0ZJU4DVY_ClientesB" bindingType="customBinding" address="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0zju4dvy_clientesb?sap-vhost=my324667.crm.ondemand.com" bindingConfiguration="binding_SOAP12">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0i9i95zy_clientesb?sap-vhost=my324667.crm.ondemand.com</serializedValue>
+          <serializedValue>https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0zju4dvy_clientesb?sap-vhost=my324667.crm.ondemand.com</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -335,10 +335,10 @@
           <serializedValue>customBinding</serializedValue>
         </property>
         <property path="/bindingConfiguration" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>binding_SOAP121</serializedValue>
+          <serializedValue>binding_SOAP12</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>C4C_SaldoClientesB.Y0I9I95ZY_ClientesB</serializedValue>
+          <serializedValue>C4C_SaldoClientesB.Y0ZJU4DVY_ClientesB</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -398,7 +398,7 @@
           <serializedValue>False</serializedValue>
         </property>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>binding_SOAP121</serializedValue>
+          <serializedValue>binding_SOAP12</serializedValue>
         </property>
         <property path="/kind" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -408,10 +408,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="binding" contract="C4C_SaldoClientesB.Y0I9I95ZY_ClientesB" bindingType="customBinding" address="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0i9i95zy_clientesb?sap-vhost=my324667.crm.ondemand.com" bindingConfiguration="binding">
+    <endpoint name="binding" contract="C4C_SaldoClientesB.Y0ZJU4DVY_ClientesB" bindingType="customBinding" address="https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0zju4dvy_clientesb?sap-vhost=my324667.crm.ondemand.com" bindingConfiguration="binding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0i9i95zy_clientesb?sap-vhost=my324667.crm.ondemand.com</serializedValue>
+          <serializedValue>https://my324667.crm.ondemand.com/sap/bc/srt/scs/sap/yy0zju4dvy_clientesb?sap-vhost=my324667.crm.ondemand.com</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -423,7 +423,7 @@
           <serializedValue>binding</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>C4C_SaldoClientesB.Y0I9I95ZY_ClientesB</serializedValue>
+          <serializedValue>C4C_SaldoClientesB.Y0ZJU4DVY_ClientesB</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>

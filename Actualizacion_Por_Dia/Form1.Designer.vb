@@ -99,7 +99,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(137, 48)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Carga Masiva Clientes"
+        Me.Button1.Text = "Actualizar"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Label6
@@ -144,7 +144,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(587, 318)
+        Me.ClientSize = New System.Drawing.Size(630, 318)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.MonthCalendar1)

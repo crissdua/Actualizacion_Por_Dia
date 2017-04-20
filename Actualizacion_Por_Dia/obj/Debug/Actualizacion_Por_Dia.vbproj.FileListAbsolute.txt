@@ -13,3 +13,10 @@ C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\bin\Debug\Act
 C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\obj\Debug\Actualizacion_Por_Dia.exe
 C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\obj\Debug\Actualizacion_Por_Dia.xml
 C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\obj\Debug\Actualizacion_Por_Dia.pdb
+C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\bin\Debug\Actualizacion_Por_Dia.exe
+C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\bin\Debug\Actualizacion_Por_Dia.pdb
+C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\bin\Debug\Actualizacion_Por_Dia.xml
+C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\obj\Debug\Actualizacion_Por_Dia.vbprojResolveAssemblyReference.cache
+C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\obj\Debug\Actualizacion_Por_Dia.Form1.resources
+C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\obj\Debug\Actualizacion_Por_Dia.Resources.resources
+C:\Users\criss\Desktop\Actualizacion_Por_Dia\Actualizacion_Por_Dia\obj\Debug\Actualizacion_Por_Dia.vbproj.GenerateResource.Cache

@@ -4,13 +4,13 @@
         Button2.Enabled = False
 
         Dim objetoActualizarC4CV As New C4C_SaldoClientesV.UpdateResponse
-        Dim clienteC4CV As New C4C_SaldoClientesV.Y0I9I95ZY_VistasClient
+        Dim clienteC4CV As New C4C_SaldoClientesV.Y0ZJU4DVY_ClientesVClient
         clienteC4CV.ClientCredentials.UserName.UserName = "_VIEWS"
         clienteC4CV.ClientCredentials.UserName.Password = "Welcome08"
         Dim leerrequestC4CV As New C4C_SaldoClientesV.UpdateRequest
 
         Dim objetoActualizarC4CB As New C4C_SaldoClientesB.UpdateResponse
-        Dim clienteC4CB As New C4C_SaldoClientesB.Y0I9I95ZY_ClientesBClient
+        Dim clienteC4CB As New C4C_SaldoClientesB.Y0ZJU4DVY_ClientesBClient
         clienteC4CB.ClientCredentials.UserName.UserName = "_VIEWS"
         clienteC4CB.ClientCredentials.UserName.Password = "Welcome08"
         Dim leerrequestC4CB As New C4C_SaldoClientesB.UpdateRequest
