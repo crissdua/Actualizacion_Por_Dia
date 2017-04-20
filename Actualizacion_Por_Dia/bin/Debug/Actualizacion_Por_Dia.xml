@@ -22,6 +22,747 @@ Actualizacion_Por_Dia
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.StandardFaultMessage">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.StandardFaultMessage.standard">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.StandardFaultMessage.addition">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeFaultData">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeFaultData.faultText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeFaultData.faultUrl">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeFaultData.faultDetail">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeLogData">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeLogData.severity">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeLogData.text">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeLogData.url">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ExchangeLogData.id">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.StandardFaultMessageExtension">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.StandardFaultMessageExtension.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.Log">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.Log.BusinessDocumentProcessingResultCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.Log.MaximumLogItemSeverityCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.Log.Item">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.TypeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.CategoryCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.SeverityCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.ReferenceObjectNodeSenderTechnicalID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.ReferenceMessageElementName">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.Note">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.NoteTemplateText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.LogItemNotePlaceholderSubstitutionList">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItem.WebURI">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode.listID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode.listVersionID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode.listAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode.listAgencySchemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode.listAgencySchemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode.listAgencySchemeAgencyIDSpecified">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemCategoryCode.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item1">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item5">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item6">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item16">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item17">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item84">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item107">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item109">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item112">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item113">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item114">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item116">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item117">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item124">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item130">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item131">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item138">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item142">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item146">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item262">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item296">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesB.AgencyIdentificationCode.Item310">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.FirstPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.SecondPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.ThirdPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.FirstPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.SecondPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.ThirdPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmation">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmation.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmation.Entry">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmationMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmationMessage_sync.ClientesB">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmationMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.Text">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.Text.languageCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.Text.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateRequest">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateRequest.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateRequest.Nombre">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateRequest.Saldo">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.UUID.schemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.UUID.schemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.UUID.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentMessageID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentMessageID.schemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentMessageID.schemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentMessageID.schemeAgencySchemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentMessageID.schemeAgencySchemeAgencyIDSpecified">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentMessageID.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentBasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentBasicMessageHeader.ID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentBasicMessageHeader.UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentBasicMessageHeader.ReferenceID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.BusinessDocumentBasicMessageHeader.ReferenceUUID">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateRequestMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateRequestMessage_sync.BasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateRequestMessage_sync.ClientesB">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequestMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequestMessage_sync.BasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequestMessage_sync.ClientesB">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequest">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequest.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequest.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequest.Nombre">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateRequest.Saldo">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateConfirmationMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateConfirmationMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDQueryMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDQueryMessage_sync.ClientesB">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDQuery">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDQuery.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDQuery.Entry">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponseMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponseMessage_sync.ClientesB">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponseMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponse">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponse.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponse.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponse.Nombre">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponse.Saldo">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.StandardFaultMessage">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.StandardFaultMessage.standard">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.StandardFaultMessage.addition">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeFaultData">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeFaultData.faultText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeFaultData.faultUrl">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeFaultData.faultDetail">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeLogData">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeLogData.severity">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeLogData.text">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeLogData.url">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ExchangeLogData.id">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.StandardFaultMessageExtension">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.StandardFaultMessageExtension.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.Log">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.Log.BusinessDocumentProcessingResultCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.Log.MaximumLogItemSeverityCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.Log.Item">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.TypeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.CategoryCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.SeverityCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.ReferenceObjectNodeSenderTechnicalID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.ReferenceMessageElementName">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.Note">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.NoteTemplateText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.LogItemNotePlaceholderSubstitutionList">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItem.WebURI">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode.listID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode.listVersionID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode.listAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode.listAgencySchemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode.listAgencySchemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode.listAgencySchemeAgencyIDSpecified">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemCategoryCode.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item1">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item5">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item6">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item16">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item17">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item84">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item107">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item109">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item112">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item113">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item114">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item116">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item117">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item124">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item130">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item131">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item138">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item142">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item146">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item262">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item296">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_SaldoClientesV.AgencyIdentificationCode.Item310">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.FirstPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.SecondPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.ThirdPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.FirstPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.SecondPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.ThirdPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateConfirmation">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateConfirmation.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateConfirmation.Entry">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateConfirmationMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateConfirmationMessage_sync.ClientesV">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateConfirmationMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.Quantity">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.Quantity.unitCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.Quantity.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.Text">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.Text.languageCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.Text.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateRequest">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateRequest.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateRequest.Nombre">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateRequest.Saldo">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.UUID.schemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.UUID.schemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.UUID.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentMessageID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentMessageID.schemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentMessageID.schemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentMessageID.schemeAgencySchemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentMessageID.schemeAgencySchemeAgencyIDSpecified">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentMessageID.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentBasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentBasicMessageHeader.ID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentBasicMessageHeader.UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentBasicMessageHeader.ReferenceID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.BusinessDocumentBasicMessageHeader.ReferenceUUID">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateRequestMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateRequestMessage_sync.BasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateRequestMessage_sync.ClientesV">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequestMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequestMessage_sync.BasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequestMessage_sync.ClientesV">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequest">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequest.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequest.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequest.Nombre">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateRequest.Saldo">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateConfirmationMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateConfirmationMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDQueryMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDQueryMessage_sync.ClientesV">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDQuery">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDQuery.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDQuery.Entry">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponseMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponseMessage_sync.ClientesV">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponseMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponse">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponse.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponse.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponse.Nombre">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponse.Saldo">
+<comentarios/>
+</member>
 <member name="T:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAType">
 <comentarios/>
 </member>

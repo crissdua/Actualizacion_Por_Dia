@@ -96,6 +96,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Service References\C4C_SaldoClientesB\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\C4C_SaldoClientesV\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\IF_SaldoClientesA\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -123,7 +133,47 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesB\Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesB\Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBReadByIDResponseMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesB\Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBUpdateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesB\Actualizacion_Por_Dia.C4C_SaldoClientesB.CreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesB\Actualizacion_Por_Dia.C4C_SaldoClientesB.ReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesB\Actualizacion_Por_Dia.C4C_SaldoClientesB.UpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesB\ClientesB.wsdl" />
+    <None Include="Service References\C4C_SaldoClientesV\Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVCreateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesV\Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVReadByIDResponseMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesV\Actualizacion_Por_Dia.C4C_SaldoClientesV.ClientesVClientesVUpdateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesV\Actualizacion_Por_Dia.C4C_SaldoClientesV.CreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesV\Actualizacion_Por_Dia.C4C_SaldoClientesV.ReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesV\Actualizacion_Por_Dia.C4C_SaldoClientesV.UpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_SaldoClientesV\ClientesV.wsdl" />
     <None Include="Service References\IF_SaldoClientesA\Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -136,6 +186,8 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\C4C_SaldoClientesB\" />
+    <WCFMetadataStorage Include="Service References\C4C_SaldoClientesV\" />
     <WCFMetadataStorage Include="Service References\IF_SaldoClientesA\" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +198,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\IF_SaldoClientesA\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_SaldoClientesV\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_SaldoClientesV\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_SaldoClientesV\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_SaldoClientesB\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_SaldoClientesB\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_SaldoClientesB\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
