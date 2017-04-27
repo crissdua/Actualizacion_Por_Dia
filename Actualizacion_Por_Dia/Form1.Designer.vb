@@ -34,6 +34,7 @@ Partial Class Form1
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -75,6 +76,7 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label6)
@@ -95,11 +97,11 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(93, 43)
+        Me.Button1.Location = New System.Drawing.Point(26, 22)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(137, 48)
+        Me.Button1.Size = New System.Drawing.Size(79, 48)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Actualizar"
+        Me.Button1.Text = "Actualizar Saldos"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Label6
@@ -140,6 +142,15 @@ Partial Class Form1
         Me.Label3.Text = "Label3"
         Me.Label3.Visible = False
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(116, 22)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(79, 48)
+        Me.Button3.TabIndex = 15
+        Me.Button3.Text = "Actualizar Uso de Maquina"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -172,4 +183,5 @@ Partial Class Form1
     Friend WithEvents MonthCalendar1 As MonthCalendar
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Button3 As Button
 End Class

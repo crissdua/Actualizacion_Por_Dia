@@ -106,7 +106,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\C4C_UsoMaquina\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\IF_SaldoClientesA\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\IF_UsoMaquinaA\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -174,6 +184,25 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\C4C_SaldoClientesV\ClientesV.wsdl" />
+    <None Include="Service References\C4C_UsoMaquina\Actualizacion_Por_Dia.C4C_UsoMaquina.CreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_UsoMaquina\Actualizacion_Por_Dia.C4C_UsoMaquina.ReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_UsoMaquina\Actualizacion_Por_Dia.C4C_UsoMaquina.UpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_UsoMaquina\Actualizacion_Por_Dia.C4C_UsoMaquina.UsoMaquinaUsoMaquinaCreateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_UsoMaquina\Actualizacion_Por_Dia.C4C_UsoMaquina.UsoMaquinaUsoMaquinaReadByIDResponseMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_UsoMaquina\Actualizacion_Por_Dia.C4C_UsoMaquina.UsoMaquinaUsoMaquinaUpdateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_UsoMaquina\Wsdl_UsoMaquina_c4c.wsdl" />
     <None Include="Service References\IF_SaldoClientesA\Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -181,6 +210,13 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\IF_SaldoClientesA\ipostep_vP.001sap0003.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPT.wsdl" />
+    <None Include="Service References\IF_UsoMaquinaA\Actualizacion_Por_Dia.IF_UsoMaquinaA.AUsoMaquinaResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\IF_UsoMaquinaA\Actualizacion_Por_Dia.IF_UsoMaquinaA.ZAUsoMaquinaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\IF_UsoMaquinaA\ipostep_vP.001sap0003.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPT.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -188,7 +224,9 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\C4C_SaldoClientesB\" />
     <WCFMetadataStorage Include="Service References\C4C_SaldoClientesV\" />
+    <WCFMetadataStorage Include="Service References\C4C_UsoMaquina\" />
     <WCFMetadataStorage Include="Service References\IF_SaldoClientesA\" />
+    <WCFMetadataStorage Include="Service References\IF_UsoMaquinaA\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\IF_SaldoClientesA\configuration91.svcinfo" />
@@ -222,6 +260,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\C4C_SaldoClientesB\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IF_UsoMaquinaA\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IF_UsoMaquinaA\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IF_UsoMaquinaA\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_UsoMaquina\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_UsoMaquina\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_UsoMaquina\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
