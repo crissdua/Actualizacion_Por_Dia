@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acercade.Designer.vb">
+      <DependentUpon>Acercade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acercade.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Service References\C4C_HistServ\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\C4C_SaldoClientesB\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -107,6 +118,11 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Service References\C4C_UsoMaquina\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\IF_HistServ\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -123,6 +139,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Acercade.resx">
+      <DependentUpon>Acercade.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +165,25 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\C4C_HistServ\Actualizacion_Por_Dia.C4C_HistServ.CreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_HistServ\Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_HistServ\Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponseMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_HistServ\Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateConfirmationMessage_sync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_HistServ\Actualizacion_Por_Dia.C4C_HistServ.ReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_HistServ\Actualizacion_Por_Dia.C4C_HistServ.UpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\C4C_HistServ\Wsdl_HistServ_c4c.wsdl" />
     <None Include="Service References\C4C_SaldoClientesB\Actualizacion_Por_Dia.C4C_SaldoClientesB.ClientesBClientesBCreateConfirmationMessage_sync.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -203,6 +241,13 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\C4C_UsoMaquina\Wsdl_UsoMaquina_c4c.wsdl" />
+    <None Include="Service References\IF_HistServ\Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\IF_HistServ\Actualizacion_Por_Dia.IF_HistServ.ZHistorialDeServAResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\IF_HistServ\ipostep_vP.001sap0003.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPT.wsdl" />
     <None Include="Service References\IF_SaldoClientesA\Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -222,9 +267,11 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\C4C_HistServ\" />
     <WCFMetadataStorage Include="Service References\C4C_SaldoClientesB\" />
     <WCFMetadataStorage Include="Service References\C4C_SaldoClientesV\" />
     <WCFMetadataStorage Include="Service References\C4C_UsoMaquina\" />
+    <WCFMetadataStorage Include="Service References\IF_HistServ\" />
     <WCFMetadataStorage Include="Service References\IF_SaldoClientesA\" />
     <WCFMetadataStorage Include="Service References\IF_UsoMaquinaA\" />
   </ItemGroup>
@@ -287,6 +334,39 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IF_HistServ\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IF_HistServ\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IF_HistServ\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_HistServ\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_HistServ\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\C4C_HistServ\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ONESOLUTION.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sap-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\logosolutionsap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

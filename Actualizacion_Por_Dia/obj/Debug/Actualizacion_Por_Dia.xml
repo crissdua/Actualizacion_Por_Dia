@@ -8,19 +8,463 @@ Actualizacion_Por_Dia
 <members>
 <member name="T:Actualizacion_Por_Dia.My.Resources.Resources">
 <summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
 </summary>
 </member>
 <member name="P:Actualizacion_Por_Dia.My.Resources.Resources.ResourceManager">
 <summary>
-  Returns the cached ResourceManager instance used by this class.
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
 </summary>
 </member>
 <member name="P:Actualizacion_Por_Dia.My.Resources.Resources.Culture">
 <summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
+</member>
+<member name="P:Actualizacion_Por_Dia.My.Resources.Resources.logosolutionsap">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Actualizacion_Por_Dia.My.Resources.Resources.ONESOLUTION">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Actualizacion_Por_Dia.My.Resources.Resources.sap_logo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.StandardFaultMessage">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.StandardFaultMessage.standard">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.StandardFaultMessage.addition">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.ExchangeFaultData">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.ExchangeFaultData.faultText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.ExchangeFaultData.faultUrl">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.ExchangeFaultData.faultDetail">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.ExchangeLogData">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.ExchangeLogData.severity">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.ExchangeLogData.text">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.ExchangeLogData.url">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.ExchangeLogData.id">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.StandardFaultMessageExtension">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.StandardFaultMessageExtension.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.Log">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.Log.BusinessDocumentProcessingResultCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.Log.MaximumLogItemSeverityCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.Log.Item">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.LogItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.TypeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.CategoryCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.SeverityCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.ReferenceObjectNodeSenderTechnicalID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.ReferenceMessageElementName">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.Note">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.NoteTemplateText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.LogItemNotePlaceholderSubstitutionList">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItem.WebURI">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode.listID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode.listVersionID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode.listAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode.listAgencySchemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode.listAgencySchemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode.listAgencySchemeAgencyIDSpecified">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemCategoryCode.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item1">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item5">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item6">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item16">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item17">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item84">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item107">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item109">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item112">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item113">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item114">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item116">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item117">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item124">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item130">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item131">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item138">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item142">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item146">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item262">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item296">
+<comentarios/>
+</member>
+<member name="F:Actualizacion_Por_Dia.C4C_HistServ.AgencyIdentificationCode.Item310">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.FirstPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.SecondPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.ThirdPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.FirstPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.SecondPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.ThirdPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderSubstitutionText">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateConfirmation">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateConfirmation.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateConfirmation.Entry">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateConfirmationMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateConfirmationMessage_sync.HistServ">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateConfirmationMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.Text">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.Text.languageCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.Text.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.CodCliente">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.NomCliente">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.CodMaquina">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.DesMaquina">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.CodItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.DesItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.CantItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.NumFactura">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequest.FechaFactura">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.UUID.schemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.UUID.schemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.UUID.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentMessageID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentMessageID.schemeID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentMessageID.schemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentMessageID.schemeAgencySchemeAgencyID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentMessageID.schemeAgencySchemeAgencyIDSpecified">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentMessageID.Value">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentBasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentBasicMessageHeader.ID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentBasicMessageHeader.UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentBasicMessageHeader.ReferenceID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.BusinessDocumentBasicMessageHeader.ReferenceUUID">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequestMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequestMessage_sync.BasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServCreateRequestMessage_sync.HistServ">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequestMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequestMessage_sync.BasicMessageHeader">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequestMessage_sync.HistServ">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.CodCliente">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.NomCliente">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.CodMaquina">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.DesMaquina">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.CodItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.DesItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.CantItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.NumFactura">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateRequest.FechaFactura">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateConfirmationMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServUpdateConfirmationMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDQueryMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDQueryMessage_sync.HistServ">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDQuery">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDQuery.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDQuery.Entry">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponseMessage_sync">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponseMessage_sync.HistServ">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponseMessage_sync.Log">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.SAP_UUID">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.Entry">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.CodCliente">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.NomCliente">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.CodMaquina">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.DesMaquina">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.CodItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.DesItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.CantItem">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.NumFactura">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.C4C_HistServ.HistServHistServReadByIDResponse.FechaFactura">
+<comentarios/>
 </member>
 <member name="T:Actualizacion_Por_Dia.C4C_SaldoClientesB.StandardFaultMessage">
 <comentarios/>
@@ -1127,6 +1571,54 @@ Actualizacion_Por_Dia
 <comentarios/>
 </member>
 <member name="P:Actualizacion_Por_Dia.C4C_UsoMaquina.UsoMaquinaUsoMaquinaReadByIDResponse.Odometro">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAType">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAType.DateA">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseType">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseType.HistorialDeServAResult">
+<comentarios/>
+</member>
+<member name="T:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.CardCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.CardName">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.Serie">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.ItemName">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.Odometro">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.ItemCode">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.Dscription">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.Quantity">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.DocNum">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.DocDate">
+<comentarios/>
+</member>
+<member name="P:Actualizacion_Por_Dia.IF_HistServ.HistorialDeServAResponseTypeRow.Entry">
 <comentarios/>
 </member>
 <member name="T:Actualizacion_Por_Dia.IF_SaldoClientesA.SaldoClientesAType">
